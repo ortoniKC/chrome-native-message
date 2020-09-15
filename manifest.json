@@ -1,0 +1,15 @@
+{
+    "name": "LetCode",
+    "version": "1.0",
+    "description": "Open window application",
+    "manifest_version": 2,
+    "permissions": [
+        "nativeMessaging"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "logo.png"
+    }
+}
